@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #57514b;
+  font-family: 'Chelsea Market', cursive;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  height: 40%;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 4rem;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li {
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+}
+.navbar ul li a #first_link {
+  color: whitesmoke;
+}
+ul li:nth-child(1) {
+  padding: 3px 40px;
+  background-color: #fb7652;
+}
+
+ul li:nth-child(2) {
+  padding: 10px 25px;
+  background-color: #77dfe6;
+}
+ul li:nth-child(3) {
+  padding: 10px 25px;
+  background-color: #ffd461;
+}
+header .header_Intro {
+  display: flex;
+  margin: 4rem auto 0 auto;
+  justify-content: space-evenly;
+}
+.header_Intro .blog h2 {
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+}
+.header_Intro .blog p {
+  margin: 0.8rem 0;
+}
+#ic_satir {
+  padding-left: 1rem;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.container_first {
+  width: 100%;
+  height: min-content;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #ddb9a3;
+}
+.container_first p {
+  color: whitesmoke;
+  margin: 1rem 0;
+  text-align: center;
+}
+.container_seccond {
+  width: 15%;
+  margin-top: 2rem;
+}
+.content_first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.content_seccond {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+footer {
+  width: 100%;
+  height: 30%;
+}
+footer .footer_photo {
+  width: 100%;
+  height: 250px;
+  background: url(./assets/footer_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.5rem;
+}
+.footer_nav {
+  width: 100%;
+  height: 4rem;
+}
+.footer_nav ul li a #seccond_link {
+  color: whitesmoke;
+}
